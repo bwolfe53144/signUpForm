@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="pageDisplay">
+        <div class="leftSide">
+            <div class="wolf"><img src="./images/20230413_105345.jpg" alt="wolf" class="wolf"></div>
+            <div class="odin">
+                <div class="odinPic"><img src="./images/odin-lined.png" alt="Odin Picture" class="odinPic"></div>
+                <p class="theWordOdin">ODIN</p>
+            </div>
+        </div>
+        <div class="rightContainer">
+            <div class="rightText">
+                <p>This is not a real online service! You know you need something<br>
+                like this in your life to help you realize your deepest dreams.<br>
+                Sign up now to get started.
+                </p>
+                <p>You know you want to.</p> 
+            </div>  
+            <form action="randomsite.com" method="post">
+                <ul>
+                    <h1>Let's do this!</h1>
+                    <div class="formInfo">
+                        <li class="leftForm">
+                            <label for="firstName">FIRST NAME:</label>
+                            <input type="text" id="firstName" name="firstName" />
+                            <label for="email">EMAIL:</label>
+                            <input type="email" id="email" name="email" />
+                            <label for="password">*PASSWORD:</label>
+                            <input type="password" id="password" name="password" required pattern="((?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[\W]).{6,20})" /><span></span>
+                        </li>
+                        <li class="rightForm">
+                            <label for="lastName">LAST NAME:</label>
+                            <input type="text" id="lastName" name="lastName" />
+                            <label for="phone number">PHONE NUMBER:</label>
+                            <input type="tel" id="tel" name="tel" />
+                            <label for="confPassword">*CONFIRM PASSWORD:</label>
+                            <input type="password" id="confPassword" name="confPassword" required pattern="((?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[\W]).{8,20})" /><span></span>
+                        </li>
+                    </div>
+                    <li class="button">
+                    <button type="submit">Create Account</button>
+                    </li>
+                    <h3>Already have an account? Log in</h2>
+                </ul>            
+            </form>
+        </div>
+    </div>
+</body>
+</html>
